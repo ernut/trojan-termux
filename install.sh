@@ -39,8 +39,8 @@ echo "termux-wake-lock
 trojan & calsh &" >> ~/.termux/boot/trojan
 
 #清理
-pkg uninstall clang cmake boost-dev golang -y
-apt autoremove -y
+#pkg uninstall clang cmake boost-dev golang -y
+#apt autoremove -y
 
 #trojan配置
 cp -f /data/data/com.termux/files/usr/share/doc/trojan/examples/client.json-example /data/data/com.termux/files/usr/etc/trojan/config.json
