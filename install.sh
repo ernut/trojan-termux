@@ -38,7 +38,7 @@ Proxy Group:\
 - { name: "HIJACKING", type: select, proxies: ["DIRECT", "REJECT"] }\
 ' ~/.config/clash/config.yml
 
-#开机启动
+#开机启动,需要安装termux:boot插件APP
 mkdir -p ~/.termux/boot/
 echo "termux-wake-lock
 trojan & clash &" >> ~/.termux/boot/trojan
