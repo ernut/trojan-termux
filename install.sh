@@ -41,7 +41,7 @@ Proxy Group:\
 #开机启动
 mkdir -p ~/.termux/boot/
 echo "termux-wake-lock
-trojan & calsh &" >> ~/.termux/boot/trojan
+trojan & clash &" >> ~/.termux/boot/trojan
 
 #清理
 #pkg uninstall clang cmake boost-dev golang -y
